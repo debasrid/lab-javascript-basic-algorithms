@@ -1,0 +1,203 @@
+*{
+  margin:0 auto;
+  padding: 0;
+  }
+
+
+nav {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    padding-top: 15px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight:bold;
+    border-bottom:1px solid grey;
+    width:100%;  
+  }
+  
+  nav a {
+    color: rgba(0,0,0,0.8);
+    text-decoration: none;
+   }
+
+  .top-left {
+    display: block;
+    padding:0;
+    margin: 0 30px;
+    width: 40%;
+    position: absolute;
+  }
+
+  .heart{
+    height:100px;
+    
+  } 
+
+  .top-links {
+    display: block;
+    padding: 0;
+    margin: 0 20px 0 0;
+    position: relative;
+    float:right;
+    width: auto;
+   
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+   }
+
+   Header{
+    background-color: #fff;
+    width:100%;
+   
+  }
+  .top-header{
+    margin:0 auto;
+    width:auto;
+    height: 50px;
+    padding-top: 5px;
+    
+  }
+  .logo {
+    height: 30px;
+    padding-right: 5px;
+    float:left;
+   
+  }
+
+  #product_search{
+    font: grey;
+    background-color: rgb(196, 193, 193);
+    width:75%;
+    height:40px;
+    float: left;
+    
+  }
+  .search{
+    background-color: rgb(199, 30, 30); 
+    color: #fff;  
+    height: 40px;
+    padding: 5px 10px ;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    font-size: 16px;
+    font-weight: 300;
+    float:left;
+    border-style: none;   
+  }
+  .right-box{
+    text-decoration: none; 
+    float: left;
+    padding:5px;
+    width:10%;  
+    color: rgba(0,0,0,0.8);
+      
+  }
+  .section-top{
+    background-image: url('city-scape.svg');
+    background-color: rgb(32, 101, 136);
+    height: 550px;
+    width:100%;
+  }
+  .section-top-text{
+    margin: 0px 85% 0px 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    height: 50%;
+    width: 30%;
+    padding-top: 12%;
+    
+  }
+  .signup{
+    background-color: orange;   
+    height: 40px;
+    padding: 5px 25%;
+    border-radius:50px;
+    font-size: 16px;
+    font-weight: 300;
+    border-style: none;   
+  }
+.section-orgs{
+  background-color: rgb(39, 53, 71);
+  margin: 0px auto;
+  height: 500px;
+  width:100%;
+  
+}
+.section-org-img{
+  width:40%;
+ padding: 5%;
+  float: left;
+ 
+}
+.section-org-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  float: right;
+  width:40%;
+  padding: 10% 3%;
+  line-height: 240%;
+}
+.section-whatis{
+  background-image: url(forklift.svg);
+  background-size: cover;
+  position: relative;
+  height:450px;
+  width:100%;
+}
+.section-whatis-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  position: absolute;
+  width:30%;
+  padding:12%;
+  line-height: 140%;
+}
+.orgsign{
+  background-color: rgb(173, 13, 13);   
+  height: 40px;
+  padding: 5px 25%;
+  border-radius:50px;
+  font-size: 16px;
+  font-weight: 300;
+  border-style: none; 
+  color: #fff;
+}
+
+.section-whatmake{
+  margin:0 auto;
+   
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align:center ;
+}
+.section-whatmake-text{
+  
+  padding-top: 2%;
+}
+.section-whatmake-boxes{
+ 
+  width:100%;
+  height:430px;
+}
+.section-whatmake-box1{
+  width:30%;
+  padding:5% 15px;
+  float: left;
+
+}
+.install{
+  background-color: rgb(34, 35, 46);  
+  color: #fff; 
+  height: 40px;
+  border-style: none;  
+  padding: 7px 10%;
+  border-radius:50px;
+  font-size: 16px;
+  font-weight: 300;
+  border-color: none;   
+}
